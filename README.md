@@ -1,4 +1,4 @@
-# LoRa-Compatible Electronic HazWind Windsock
+# LoRa-Compatible Electronic HazWind Windsock (BETA BRANCH)
 
 ## What's this?
 
