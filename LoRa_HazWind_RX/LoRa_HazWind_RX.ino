@@ -8,8 +8,10 @@
 
 #define DISPLAYS_ACROSS 2
 #define DISPLAYS_DOWN 1
+#define RX 2
+#define TX 3
 
-SoftwareSerial reyax(11, 10);
+SoftwareSerial reyax(RX, TX); // Modified RX and TX values
 DMD dmd(DISPLAYS_ACROSS, DISPLAYS_DOWN);
 
 String message;

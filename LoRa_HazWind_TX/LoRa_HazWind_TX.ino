@@ -1,8 +1,12 @@
 #include <SoftwareSerial.h>
 #include <string.h>
 
-SoftwareSerial reyax(11, 10); // RX, TX
+#define RX 11
+#define TX 10
 
+SoftwareSerial reyax(RX, TX);
+
+// Untouched pin layout
 int pin2, pin3, pin4, pin5, pin6, pin7, pin8, pin9;
 int dataLength, ledStatus = HIGH;
 String data;
